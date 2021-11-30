@@ -16,14 +16,12 @@ First open command promt FROM THE UNZIPED FILE and execute:
 Feel free to take some of the code from the program idc. I aint gonna sue you lol.
 
 ## **What you can create:**
-1: Nitro Ransomware
-2: Money Ransomware
-3: PRO Token Grabber
-4: 
-5: Token Gen (Grabs Token)
-6: Webhook Spammer (Grabs Token)
-7: Token Grabber (Grabs their token)
-8: Complete Destruction (Virus)
+1. Token Gen (Token Grabber)
+2. Webhook Spammer (Token Grabber)
+3. PRO Token Grabber
+4. Token Grabber (Grabs their Token)
+5. Dm Spammer (Token Grabber)
+6. Spammer (Token Grabber)
 
 ## Screenshots:
 
