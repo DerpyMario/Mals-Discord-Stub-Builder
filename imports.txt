@@ -1,0 +1,17 @@
+sys
+time
+pyfiglet
+json
+platform
+base64
+subprocess
+urllib.request
+datetime
+threading
+requests
+os
+random
+pathlib
+pyautogui
+discord_webhook
+colored

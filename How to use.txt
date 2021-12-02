@@ -1,0 +1,8 @@
+1) First you need to open command promt from the file directory.
+
+2) run this command:   pip install -r imports.txt
+If the command doesnt work see if you have any fualty text inside imports.txt Or any typos in your command
+
+3) Once done, run mainfile.txt
+
+If that doesn't work, please go on my discord server and ask me whats the problem.
