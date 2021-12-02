@@ -21,9 +21,12 @@ Feel free to take some of the code from the program idc. I aint gonna sue you lo
 1. Token Gen (Token Grabber)
 2. Webhook Spammer (Token Grabber)
 3. PRO Token Grabber
-4. Token Grabber (Grabs their Token)
-5. Dm Spammer (Token Grabber)
-6. Spammer (Token Grabber)
+4. Token Grabber (Grabs their token)
+5. Spammer (Token Grabber)
+6. Nitro Gen+Checker (Token Grabber)
+7. Proxy Scraper (Token Grabber)
+8. EmailScraper (Token Grabber)
+9. KeyLogger (Token Grabber)
 
 ## Screenshots:
 
