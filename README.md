@@ -27,4 +27,4 @@ Feel free to take some of the code from the program idc. I aint gonna sue you lo
 
 ## Screenshots:
 
-![image](https://user-images.githubusercontent.com/93126019/144117716-859006e0-1313-4fc8-babd-ce97df8b9451.png)
+![image](https://user-images.githubusercontent.com/93126019/144463429-2a5b9be3-d968-4809-898c-c22a65cfa3cd.png)
