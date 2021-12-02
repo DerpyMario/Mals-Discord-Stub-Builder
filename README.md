@@ -6,14 +6,14 @@ I will update code frequently
 ## **my server: https://discord.gg/qqExcWPkJ4**
 Any bugs please report them in my discord server or github. Thank you!
 
-I hope you enjoy the program!
+## **S_files mean its SAFE (not a token grabber)
 
 ## **Installing requirements**
 First open command promt FROM THE UNZIPED FILE and execute:
           **pip install imports.txt**
 
 # **I AM NOT RESPONSIBLE FOR ACTIONS DONE WITH THIS PROGRAM**
-## **for education purpose only**
+## **For education purpose only**
 
 Feel free to take some of the code from the program idc. I aint gonna sue you lol.
 
