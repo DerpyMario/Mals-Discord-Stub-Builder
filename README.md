@@ -10,7 +10,7 @@ Any bugs please report them in my discord server or github. Thank you!
 
 ## **Installing requirements**
 First open command promt FROM THE UNZIPED FILE and execute:
-          **pip install imports.txt**
+          **pip install -r imports.txt**
 
 # **I AM NOT RESPONSIBLE FOR ACTIONS DONE WITH THIS PROGRAM**
 ## **For education purpose only**
