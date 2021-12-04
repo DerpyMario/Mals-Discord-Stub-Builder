@@ -33,4 +33,5 @@ Feel free to take some of the code from the program idc. I aint gonna sue you lo
 
 ## Screenshots:
 
-![image](https://user-images.githubusercontent.com/93126019/144463429-2a5b9be3-d968-4809-898c-c22a65cfa3cd.png)
+![image](https://user-images.githubusercontent.com/93126019/144705322-1ef619ab-e288-4c6d-a9e7-d45e47be2293.png)
+
