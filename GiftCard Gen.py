@@ -1,11 +1,10 @@
-from mainfile import non
+from mainfile import name,non
 
 
 def main_1():
     import time
     import random
     import pyfiglet
-    from mainfile import name
 
 
     # functions

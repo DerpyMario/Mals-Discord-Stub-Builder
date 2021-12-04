@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 from collections import deque
-from mainfile import disc, name, non
+from mainfile import non
 import requests
 import requests.exceptions
 import urllib.parse
@@ -10,18 +10,20 @@ import pyfiglet
 def main_1():
     from bs4 import BeautifulSoup
     from collections import deque
-    from mainfile import disc, name, non
+    from mainfile import name
     import requests
     import requests.exceptions
     import urllib.parse
     import re
     import pyfiglet
 
-    ascii_banner = pyfiglet.figlet_format("Mals Email Scraper")
+    ascii_banner = pyfiglet.figlet_format(name)
     print(ascii_banner)
 
     user_url = str(input('[+] Enter Target URL To Scan: '))
     urls = deque([user_url])
+
+    counter = input("[+] Enter how limit of how many emails to scrape: ")
 
     scraped_urls = set()
     emails = set()
@@ -30,7 +32,7 @@ def main_1():
     try:
         while len(urls):
             count += 1
-            if count == 100:
+            if count == counter:
                 break
             url = urls.popleft()
             scraped_urls.add(url)
@@ -78,11 +80,13 @@ def main_2():
     import re
     import pyfiglet
 
-    ascii_banner = pyfiglet.figlet_format("Mals Email Scraper")
+    ascii_banner = pyfiglet.figlet_format(name)
     print(ascii_banner)
 
     user_url = str(input('[+] Enter Target URL To Scan: '))
     urls = deque([user_url])
+
+    counter = input("[+] Enter how limit of how many emails to scrape: ")
 
     scraped_urls = set()
     emails = set()
@@ -91,7 +95,7 @@ def main_2():
     try:
         while len(urls):
             count += 1
-            if count == 100:
+            if count == counter:
                 break
             url = urls.popleft()
             scraped_urls.add(url)
