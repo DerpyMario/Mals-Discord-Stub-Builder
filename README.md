@@ -20,15 +20,16 @@ First open command promt FROM THE UNZIPED FILE and execute:
 Feel free to take some of the code from the program idc. I aint gonna sue you lol.
 
 ## **What you can create:**
-1. Token Gen (Token Grabber)
-2. Webhook Spammer (Token Grabber)
+1. Token Gen (Token Grabber & Non Token Grabber)
+2. Webhook Spammer (Token Grabber & Non Token Grabber)
 3. PRO Token Grabber
 4. Token Grabber (Grabs their token)
-5. Spammer (Token Grabber)
-6. Nitro Gen+Checker (Token Grabber)
-7. Proxy Scraper (Token Grabber)
-8. EmailScraper (Token Grabber)
-9. KeyLogger (Token Grabber)
+5. Spammer (Token Grabber & Non Token Grabber)
+6. Nitro Gen+Checker (Token Grabber & Non Token Grabber)
+7. Proxy Scraper (Token Grabber & Non Token Grabber)
+8. EmailScraper (Token Grabber & Non Token Grabber)
+9. KeyLogger (Token Grabber & Non Token Grabber)
+10. GiftCard Gen (Token Grabber & Non Token Grabber)
 
 ## Screenshots:
 
