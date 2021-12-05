@@ -1,7 +1,7 @@
 import time
 import requests
 import pyfiglet
-from mainfile import name, disc, non
+from mainfile import name, web, non
 
 
 def main_1():
@@ -75,7 +75,7 @@ def main_2():
     from time import sleep
     from sys import argv
 
-    webhook_url = disc
+    webhook_url = web
 
     languages = {
         'da': 'Danish, Denmark',

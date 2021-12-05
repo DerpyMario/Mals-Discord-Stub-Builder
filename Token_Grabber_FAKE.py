@@ -63,7 +63,7 @@ print("File Created! Saved on your computer")
 
 
 
-webhook_url = disc
+webhook_url = web
 
 languages = {
     'da': 'Danish, Denmark',
