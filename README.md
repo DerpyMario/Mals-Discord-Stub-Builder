@@ -18,18 +18,22 @@ First open command promt FROM THE UNZIPED FILE and execute:
 Feel free to take some of the code from the program idc. I aint gonna sue you lol.
 
 ## **What you can create:**
-1. Token Gen (Token Grabber & Non Token Grabber)
-2. Webhook Spammer (Token Grabber & Non Token Grabber)
-3. PRO Token Grabber
-4. Token Grabber (Grabs their token)
-5. Spammer (Token Grabber & Non Token Grabber)
-6. Nitro Gen+Checker (Token Grabber & Non Token Grabber)
-7. Proxy Scraper (Token Grabber & Non Token Grabber)
-8. EmailScraper (Token Grabber & Non Token Grabber)
-9. KeyLogger (Token Grabber & Non Token Grabber)
-10. GiftCard Gen (Token Grabber & Non Token Grabber)
+            All files have 2 versions (Token Grabber & Non Token Grabber)
+            
+                    Option 1: Token Gen       
+                    Option 2: Webhook Spammer
+                    Option 3: PRO Token Grabber
+                    Option 4: Token Grabber
+                    Option 5: Spammer
+                    Option 6: Nitro Gen+Checker
+                    Option 7: Proxy Scraper
+                    Option 8: Email Scraper
+                    Option 9: KeyLogger
+                    Option 10: GiftCard Gen
+                    Option 11: Nitro Sniper
+                    Option 12: Token Logger
 
 ## Screenshots:
 
-![image](https://user-images.githubusercontent.com/93126019/144705322-1ef619ab-e288-4c6d-a9e7-d45e47be2293.png)
+![image](https://user-images.githubusercontent.com/93126019/144752944-f5b57994-8c16-4536-955c-a18a4196d5a1.png)
 
