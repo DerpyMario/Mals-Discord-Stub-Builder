@@ -8,8 +8,6 @@ I will update code frequently
 ## **my server: https://discord.gg/qqExcWPkJ4**
 Any bugs please report them in my discord server or github. Thank you!
 
-## **S_files mean its SAFE (not a token grabber)**
-
 ## **Installing requirements**
 First open command promt FROM THE UNZIPED FILE and execute:
           **pip install -r imports.txt**
