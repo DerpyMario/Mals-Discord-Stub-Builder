@@ -71,7 +71,7 @@ def main_1():
             print("")
             print(g(5) + "-" + g(4) + "-" + g(4))
 
-    if t == "robolox":
+    if t == "roblox":
         for x in range(n):
             print("")
             print(g(3) + "-" + g(3) + "-" + g(4))
@@ -113,6 +113,7 @@ def main_1():
 
     print("")
     print("-----Generation completed-----")
+    print("---https://discord.gg/qqExcWPkJ4---")
     time.sleep(360)
 
 
@@ -210,7 +211,7 @@ def main_2():
             print("")
             print(g(5) + "-" + g(4) + "-" + g(4))
 
-    if t == "robolox":
+    if t == "roblox":
         for x in range(n):
             print("")
             print(g(3) + "-" + g(3) + "-" + g(4))
@@ -252,6 +253,7 @@ def main_2():
 
     print("")
     print("-----Generation completed-----")
+    print("---https://discord.gg/qqExcWPkJ4---")
     time.sleep(360)
 
 
